@@ -1,0 +1,45 @@
+   1 try { . "c:\Users\rpatil\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {} 
+   2 ls
+   3 python testing.py
+   4 clear
+   5 ls
+   6 ls -l
+   7 ls -la
+   8 ls
+   9 clear
+  10 ls
+  11 git init
+  12 dir
+  13 pwd
+  14 clear
+  15 pwd
+  16 ls
+  17 ll
+  18 clear
+  19 python testing.py
+  20 git statud
+  21 git status
+  22 clear
+  23 pwd
+  24 clear
+  25 python test.py
+  26 git status
+  27 git add test.py
+  28 git status
+  29 git rm --cached test.py
+  30 git status
+  31 clear
+  32 git add .
+  33 clear
+  34 git status
+  35 git commit -m "1st commit"
+  36 git status
+  37 rm testing.py
+  38 git status
+  39 git restore testing.py
+  40 git status
+  41 clear
+  42 git log --oneline
+  43 rm test.py
+  44 git status
+  45 git restore test.py
